@@ -1,0 +1,375 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  max-width: 2000px;
+  height: 100vh;
+  position: relative;
+  background-image: url(../../../public/assets/imgs/background\ 1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  /* overflow: hidden; */
+  background-size: 100%;
+  transition: width 0.2s ease;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../public/assets/imgs/floor\ 3.png);
+  position: absolute;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  transition: width 0.2s ease;
+}
+
+.container_hover {
+  /* width: 110vw; */
+  /* transform: translateX(10px); */
+}
+
+.screen {
+  position: absolute;
+  /* left: -4%; */
+  width: 36%;
+}
+
+.frame-all{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.frame-11,
+.frame-11 * {
+  box-sizing: border-box;
+}
+
+.frame-11 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #2d4966;
+  border-width: 0.5px 8px 8px 0px;
+  padding: 7px 10px 7px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 339px;
+  width: 520px;
+  min-width: 400px;
+  position: relative;
+  overflow: hidden;
+  top: 150px;
+  left: 350px;
+  z-index: 2;
+}
+
+.group-3 {
+  flex-shrink: 0;
+  width: 492px;
+  height: 303px;
+  position: static;
+}
+
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  row-gap: 3px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 492px;
+  height: 27.84px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  border-bottom: 2px solid #3a698e;
+
+}
+
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.tokenomics {
+  color: #3a698e;
+  text-align: left;
+  font-family: "Archivo-Bold", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.frame-16 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.group-2 {
+  flex-shrink: 0;
+  width: 34px;
+  height: 8px;
+  position: static;
+}
+
+.rectangle-7 {
+  background: rgba(217, 217, 217, 0);
+  border-style: solid;
+  border-color: #2d4865;
+  border-width: 0px 0px 1px 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.rectangle-8 {
+  background: rgba(217, 217, 217, 0);
+  border-style: solid;
+  border-color: #2d4865;
+  border-width: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 13px;
+  top: 0px;
+}
+
+.group-1 {
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  left: 26px;
+  top: 0px;
+  overflow: visible;
+}
+
+.vector-1 {
+  width: 492px;
+  height: 0px;
+  position: absolute;
+  left: 10px;
+  top: 27.34px;
+  overflow: visible;
+}
+
+.step-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  position: absolute;
+  left: 10px;
+  top: 65px;
+  width: 492px;
+  height: 251px;
+}
+
+.step-1-span {
+  color: #000000;
+  font-family: "Archivo-MediumItalic", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.step-1-span2 {
+  color: #000000;
+  font-family: "Archivo-ThinItalic", sans-serif;
+  font-size: 15px;
+  /* letter-spacing: 0.04em; */
+  font-weight: 0;
+  font-style: italic;
+}
+
+.step-1-span3 {
+  color: #000000;
+  font-family: "Archivo-MediumItalic", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.step-1-span4 {
+  color: #000000;
+  font-family: "Archivo-ThinItalic", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.step-1-span5 {
+  color: #000000;
+  font-family: "Archivo-MediumItalic", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.step-1-span6 {
+  color: #000000;
+  font-family: "Archivo-ThinItalic", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+.tokenomics_topic>h3 {
+  font-size: 15px;
+}
+
+.screen>div {
+  /* width: 100% !important; */
+}
+
+.screen>div>img {
+  width: 100%;
+}
+
+.whitepaper {
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  width: 25%;
+}
+
+/* .whitepaper>div {
+  width: 460px;
+} */
+
+.whitepaper>div>img {
+  width: 100% !important;
+}
+
+.brain_static {
+  position: absolute;
+  right: 0px;
+  height: 85%;
+  /* width: 45%; */
+}
+
+.brain_static>div {
+  width: 750px !important;
+}
+
+.brain_static>div>img {
+  width: 100%;
+  left: auto !important;
+  right: 0px !important;
+}
+
+.faqs {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.machine {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.bot {
+  position: absolute;
+  bottom: 0px;
+  /* width: 85%; */
+  left: 6%;
+}
+
+.bot>div {
+  display: flex;
+  /* width: 700px !important; */
+  justify-content: flex-end;
+}
+
+.bot>div>img {
+  width: 100%;
+  bottom: 0px !important;
+  top: auto !important;
+}
+
+.barrels {
+  position: absolute;
+  left: -2%;
+  top: 35%;
+  width: 15%;
+}
+
+.barrels>div {
+  width: 300px !important;
+}
+
+.barrels>div>img {
+  width: 100% !important;
+}
+
+/* ===================================== */
+
+.hover-zoom {
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* width: 300px;
+  height: 200px; */
+}
+
+.hover-zoom>div>img {
+  object-fit: cover;
+  transition: transform 0.3s ease, translate 0.3s ease;
+}
+
+.hover-zoom>div>img {
+  transform: scale(1.07);
+}
+
+.hover-zoom.upper-left>div>img {
+  transform: scale(1.07) translate(15px, 1px);
+  /* Slide image diagonally down-right */
+}
+
+.hover-zoom.upper-right>div>img {
+  transform: scale(1.07) translate(-15px, -1px);
+  /* Slide image diagonally up-left */
+}
